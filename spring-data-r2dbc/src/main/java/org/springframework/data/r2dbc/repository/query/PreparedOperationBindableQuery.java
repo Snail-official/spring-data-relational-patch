@@ -27,7 +27,7 @@ import org.springframework.util.Assert;
  * @author Mark Paluch
  * @author Will Easterling
  */
-class PreparedOperationBindableQuery implements BindableQuery {
+public class PreparedOperationBindableQuery implements BindableQuery {
 
 	private final PreparedOperation<?> preparedQuery;
 

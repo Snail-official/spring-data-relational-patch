@@ -28,7 +28,7 @@ import org.springframework.util.Assert;
  * @author Mark Paluch
  * @since 1.1
  */
-class ReactiveDeleteOperationSupport implements ReactiveDeleteOperation {
+public class ReactiveDeleteOperationSupport implements ReactiveDeleteOperation {
 
 	private final R2dbcEntityTemplate template;
 

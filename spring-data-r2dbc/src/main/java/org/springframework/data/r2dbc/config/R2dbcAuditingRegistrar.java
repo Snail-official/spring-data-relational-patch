@@ -35,7 +35,7 @@ import org.springframework.util.Assert;
  * @author Christoph Strobl
  * @since 1.2
  */
-class R2dbcAuditingRegistrar extends AuditingBeanDefinitionRegistrarSupport {
+public class R2dbcAuditingRegistrar extends AuditingBeanDefinitionRegistrarSupport {
 
 	@Override
 	protected Class<? extends Annotation> getAnnotation() {

@@ -32,7 +32,7 @@ import org.springframework.util.Assert;
  * @author Mark Paluch
  * @deprecated since 1.2, use Spring's org.springframework.r2dbc.core.MapBindParameterSource support instead.
  */
-class MapBindParameterSource implements BindParameterSource {
+public class MapBindParameterSource implements BindParameterSource {
 
 	private final Map<String, Parameter> values;
 

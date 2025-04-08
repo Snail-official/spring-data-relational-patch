@@ -36,7 +36,7 @@ import org.springframework.data.repository.util.ReactiveWrappers;
  * @author Mark Paluch
  * @author Christoph Strobl
  */
-class R2dbcParameterAccessor extends RelationalParametersParameterAccessor {
+public class R2dbcParameterAccessor extends RelationalParametersParameterAccessor {
 
 	private final Object[] values;
 	private final R2dbcQueryMethod method;

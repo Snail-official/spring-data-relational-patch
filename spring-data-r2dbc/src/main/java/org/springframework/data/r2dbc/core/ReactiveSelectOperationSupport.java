@@ -31,7 +31,7 @@ import org.springframework.util.Assert;
  * @author Mikhail Polivakha
  * @since 1.1
  */
-class ReactiveSelectOperationSupport implements ReactiveSelectOperation {
+public class ReactiveSelectOperationSupport implements ReactiveSelectOperation {
 
 	private final R2dbcEntityTemplate template;
 

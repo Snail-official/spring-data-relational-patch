@@ -25,7 +25,7 @@ import io.r2dbc.spi.RowMetadata;
  * @author Mark Paluch
  * @since 1.3.7
  */
-class RowMetadataUtils {
+public class RowMetadataUtils {
 
 	/**
 	 * Check whether the column {@code name} is contained in {@link RowMetadata}. The check happens case-insensitive.

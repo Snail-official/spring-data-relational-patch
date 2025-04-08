@@ -27,7 +27,7 @@ import org.springframework.util.Assert;
  * @author Mark Paluch
  * @since 1.1
  */
-class ReactiveInsertOperationSupport implements ReactiveInsertOperation {
+public class ReactiveInsertOperationSupport implements ReactiveInsertOperation {
 
 	private final R2dbcEntityTemplate template;
 

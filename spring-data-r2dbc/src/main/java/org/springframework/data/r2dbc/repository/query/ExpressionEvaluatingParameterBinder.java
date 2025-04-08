@@ -36,7 +36,7 @@ import org.springframework.r2dbc.core.binding.BindTarget;
  * @author Mark Paluch
  * @since 1.1
  */
-class ExpressionEvaluatingParameterBinder {
+public class ExpressionEvaluatingParameterBinder {
 
 	private final ExpressionQuery expressionQuery;
 

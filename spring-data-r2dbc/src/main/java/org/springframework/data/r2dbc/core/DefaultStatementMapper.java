@@ -47,7 +47,7 @@ import org.springframework.util.Assert;
  * @author Mingyuan Wu
  * @author Diego Krupitza
  */
-class DefaultStatementMapper implements StatementMapper {
+public class DefaultStatementMapper implements StatementMapper {
 
 	private final R2dbcDialect dialect;
 	private final RenderContext renderContext;

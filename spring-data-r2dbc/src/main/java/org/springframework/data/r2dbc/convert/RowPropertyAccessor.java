@@ -29,7 +29,7 @@ import org.springframework.lang.Nullable;
  * @author Mark Paluch
  * @since 1.2
  */
-class RowPropertyAccessor implements PropertyAccessor {
+public class RowPropertyAccessor implements PropertyAccessor {
 
 	private final @Nullable RowMetadata rowMetadata;
 

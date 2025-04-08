@@ -53,7 +53,7 @@ import org.springframework.r2dbc.core.PreparedOperation;
  * @author Diego Krupitza
  * @since 1.1
  */
-class R2dbcQueryCreator extends RelationalQueryCreator<PreparedOperation<?>> {
+public class R2dbcQueryCreator extends RelationalQueryCreator<PreparedOperation<?>> {
 
 	private final PartTree tree;
 	private final RelationalParameterAccessor accessor;

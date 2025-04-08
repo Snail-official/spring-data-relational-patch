@@ -29,7 +29,7 @@ import org.springframework.data.repository.query.ValueExpressionQueryRewriter;
  * @author Mark Paluch
  * @since 1.1
  */
-class ExpressionQuery {
+public class ExpressionQuery {
 
 	private static final String SYNTHETIC_PARAMETER_TEMPLATE = "__synthetic_%d__";
 

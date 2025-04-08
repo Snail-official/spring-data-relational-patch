@@ -40,7 +40,7 @@ import org.springframework.r2dbc.core.binding.BindMarkersFactory;
  * @deprecated since 1.2, without replacement.
  */
 @Deprecated
-class NamedParameterExpander {
+public class NamedParameterExpander {
 
 	/**
 	 * Default maximum number of entries for the SQL cache: 256.

@@ -25,7 +25,7 @@ import org.springframework.data.repository.config.RepositoryConfigurationExtensi
  *
  * @author Mark Paluch
  */
-class R2dbcRepositoriesRegistrar extends RepositoryBeanDefinitionRegistrarSupport {
+public class R2dbcRepositoriesRegistrar extends RepositoryBeanDefinitionRegistrarSupport {
 
 	@Override
 	protected Class<? extends Annotation> getAnnotation() {
