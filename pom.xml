@@ -311,8 +311,13 @@
 	</build>
 
 	<repositories>
-		
-		
 	</repositories>
+
+	<distributionManagement>
+		<repository>
+			<id>snail</id>
+			<url>https://repo.enak.kr/repository/snail/</url>
+		</repository>
+	</distributionManagement>
 
 </project>
