@@ -79,7 +79,7 @@ public abstract class AbstractR2dbcQuery implements RepositoryQuery {
 	}
 
 	@SuppressWarnings("unchecked")
-	private Publisher<?> executeQuery(R2dbcParameterAccessor parameterAccessor, PreparedOperation<?> operation) {
+	protected Publisher<?> executeQuery(R2dbcParameterAccessor parameterAccessor, PreparedOperation<?> operation) {
 
 		ResultProcessor processor = method.getResultProcessor().withDynamicProjection(parameterAccessor);
 
